@@ -6,7 +6,7 @@
 Для этого: выведи список логинов курьеров с количеством их заказов в статусе «В доставке» (поле inDelivery = true). 
 
 SQL-Запрос:
-```psql
+```sql
 SELECT c.login, Count(o.id) AS "deliveryCount" 
 FROM "Couriers" AS c LEFT JOIN "Orders" AS o ON c.id = o."courierId"
 ```
