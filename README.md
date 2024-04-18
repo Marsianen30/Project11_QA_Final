@@ -10,7 +10,7 @@
 3. Выполнить запрос на получения заказа по треку заказа.
 4. Проверить, что код ответа равен 200.
 ```
-## Скриншот:
+## Скриншот результата:
 ![App Screenshot](https://i.imgur.com/fw5mVTG.png)
 ### Configuration
 *	URL: https://ab246018-2481-496b-9571-d709554b8df4.serverhub.praktikum-services.ru.
